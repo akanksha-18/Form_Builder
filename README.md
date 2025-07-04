@@ -1,12 +1,65 @@
-# React + Vite
+# 🧩 React Form Builder with Preview Mode
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic drag-and-drop form builder built using **React** and **Tailwind CSS**. It allows you to add, remove, and preview form fields like text, number, boolean (checkbox), enum (radio), and labels.
 
-Currently, two official plugins are available:
+### Hosted Link : https://form-builder-dun-seven.vercel.app/
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🚀 Drag & drop to reorder fields
+- ➕ Add text, number, checkbox, radio buttons, and label fields
+- ✏️ Edit labels and section titles
+- 👁️ Preview Mode (fields are read-only)
+- 🗑️ Delete individual fields or entire sections
+- 🎨 Tailwind CSS styling
 
-## Expanding the ESLint configuration
+## 🛠 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (with Hooks)
+- Tailwind CSS
+- Lucide React Icons
+- HTML5 Drag and Drop API
+
+## 🧪 Available Field Types
+
+| Type      | Description        |
+|-----------|--------------------|
+| text      | Single-line text input |
+| number    | Numeric input      |
+| boolean   | Checkbox input     |
+| enum      | Radio options      |
+| label     | Display-only header or label text |
+
+## 👁️ Preview Mode
+
+Click the "Preview" button to see how the form will look. In preview mode:
+
+- All input fields become read-only
+- Users can no longer change labels
+- Only field values can be entered (but not saved yet)
+
+Click "Edit" to return to editable mode.
+
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/form_builder.git
+cd form_builder
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app
+
+```bash
+npm start
+```
+
+
+
